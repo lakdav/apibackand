@@ -1,7 +1,8 @@
 {
   "scripts": {
     "http": "nodemon ./Native_http_server/server.js",
-    "start": "nodemon server.js"
+    "dev": "nodemon server.js",
+    "start": "set NODE_ENV=production && node server.js"
   },
   "name": "masterapi",
   "version": "1.0.0",
